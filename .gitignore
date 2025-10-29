@@ -1,8 +1,23 @@
-.DS_Store
+# Ignore model binaries and datasets
+*.joblib
+*.pkl
+*.h5
+*.zip
+*.csv
+
+# Keep small text notes in data folders
+!data/raw/README.txt
+
+# Python and cache folders
 __pycache__/
 *.pyc
-.env
-.env.*
-data/raw/*
-outputs/models/*
-outputs/reports/*
+*.pyo
+*.pyd
+
+# Streamlit temporary files
+.streamlit/
+
+# Outputs generated locally
+outputs/models/*.joblib
+outputs/reports/*.json
+outputs/plots/*.png

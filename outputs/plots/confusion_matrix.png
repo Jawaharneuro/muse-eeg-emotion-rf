@@ -1,0 +1,8 @@
+Placeholder for confusion_matrix.png
+
+This folder stores generated output plots:
+- confusion_matrix.png
+- feature_importance_top25.png
+
+Generated automatically when you run:
+python src/plot_reports.py
